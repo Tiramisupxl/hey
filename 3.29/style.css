@@ -180,25 +180,25 @@ img {
   transform: translateY(10px); }
 
 .state6 .earphone .section1 {
-  transform: translateY(-460px); }
+  transform: translateY(-340px); }
 .state6 .earphone .section2 {
-  transform: translateY(-380px); }
+  transform: translateY(-260px); }
 .state6 .earphone .section3 {
-  transform: translateY(-360px); }
+  transform: translateY(-240px); }
 .state6 .earphone .section4 {
-  transform: translate(100px, -360px); }
+  transform: translate(100px, -240px); }
 .state6 .earphone .section5 {
-  transform: translate(-10px, -340px); }
+  transform: translate(-10px, -220px); }
 .state6 .earphone .section6 {
-  transform: translateY(-320px); }
+  transform: translateY(-210px); }
 .state6 .earphone .section7 {
-  transform: translateY(-250px); }
-.state6 .earphone .section8 {
-  transform: translateY(-220px); }
-.state6 .earphone .section9 {
-  transform: translateY(-200px); }
-.state6 .earphone .section10 {
   transform: translateY(-130px); }
+.state6 .earphone .section8 {
+  transform: translateY(-100px); }
+.state6 .earphone .section9 {
+  transform: translateY(-70px); }
+.state6 .earphone .section:nth-child(10) {
+  transform: translateY(10px); }
 .state6 .earphone .section:nth-child(11) {
   transform: translateY(10px); }
 .state6 .earphone .section:nth-child(12) {
@@ -207,57 +207,57 @@ img {
   transform: translateY(10px); }
 
 .state7 .earphone .section1 {
-  transform: translateY(-590px); }
+  transform: translateY(-340px); }
 .state7 .earphone .section2 {
-  transform: translateY(-510px); }
-.state7 .earphone .section3 {
-  transform: translateY(-490px); }
-.state7 .earphone .section4 {
-  transform: translate(100px, -490px); }
-.state7 .earphone .section5 {
-  transform: translate(-10px, -470px); }
-.state7 .earphone .section6 {
-  transform: translateY(-450px); }
-.state7 .earphone .section7 {
-  transform: translateY(-380px); }
-.state7 .earphone .section8 {
-  transform: translateY(-350px); }
-.state7 .earphone .section9 {
-  transform: translateY(-330px); }
-.state7 .earphone .section10 {
   transform: translateY(-260px); }
-.state7 .earphone .section11 {
+.state7 .earphone .section3 {
+  transform: translateY(-240px); }
+.state7 .earphone .section4 {
+  transform: translate(100px, -240px); }
+.state7 .earphone .section5 {
+  transform: translate(-10px, -220px); }
+.state7 .earphone .section6 {
   transform: translateY(-210px); }
+.state7 .earphone .section7 {
+  transform: translateY(-130px); }
+.state7 .earphone .section8 {
+  transform: translateY(-100px); }
+.state7 .earphone .section9 {
+  transform: translateY(-70px); }
+.state7 .earphone .section10 {
+  transform: translateY(10px); }
+.state7 .earphone .section11 {
+  transform: translate(20px, 50px); }
 .state7 .earphone .section12 {
-  transform: translate(30px, -150px); }
+  transform: translate(50px, 100px); }
 .state7 .earphone .section13 {
-  transform: translateY(-160px); }
+  transform: translate(50px, 90px); }
 
 .state8 .earphone .section1 {
-  transform: translateY(-720px); }
-.state8 .earphone .section2 {
-  transform: translateY(-640px); }
-.state8 .earphone .section3 {
-  transform: translateY(-620px); }
-.state8 .earphone .section4 {
-  transform: translate(100px, -620px); }
-.state8 .earphone .section5 {
-  transform: translate(-10px, -600px); }
-.state8 .earphone .section6 {
-  transform: translateY(-580px); }
-.state8 .earphone .section7 {
-  transform: translateY(-510px); }
-.state8 .earphone .section8 {
-  transform: translateY(-480px); }
-.state8 .earphone .section9 {
-  transform: translateY(-460px); }
-.state8 .earphone .section10 {
-  transform: translateY(-390px); }
-.state8 .earphone .section11 {
   transform: translateY(-340px); }
+.state8 .earphone .section2 {
+  transform: translateY(-260px); }
+.state8 .earphone .section3 {
+  transform: translateY(-240px); }
+.state8 .earphone .section4 {
+  transform: translate(100px, -240px); }
+.state8 .earphone .section5 {
+  transform: translate(-10px, -220px); }
+.state8 .earphone .section6 {
+  transform: translateY(-210px); }
+.state8 .earphone .section7 {
+  transform: translateY(-130px); }
+.state8 .earphone .section8 {
+  transform: translateY(-100px); }
+.state8 .earphone .section9 {
+  transform: translateY(-70px); }
+.state8 .earphone .section10 {
+  transform: translateY(10px); }
+.state8 .earphone .section11 {
+  transform: translate(20px, 50px); }
 .state8 .earphone .section12 {
-  transform: translate(30px, -290px); }
+  transform: translate(50px, 100px); }
 .state8 .earphone .section13 {
-  transform: translate(50px, -260px); }
+  transform: translate(70px, 130px); }
 
 /*# sourceMappingURL=style.css.map */

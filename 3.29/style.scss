@@ -37,8 +37,17 @@ $transform1:20px;
         &:nth-child(#{$i}){
           transform: translateY(20px);
         }
+      }
     }
-    }
+    //.section2{
+    //  transition:transfrom .5s ease .2s;
+    //}
+    //.section3{
+    //  transition:transfrom .5s ease .4s;
+    //}
+    //.section4{
+    //  transition:transfrom .5s ease .6s;
+    //}
   }
 }
 .state2{
@@ -163,37 +172,34 @@ $transform1:20px;
 .state6{
   .earphone{
     .section1{
-      transform: translateY(-460px);
+      transform: translateY(-340px);
     }
     .section2{
-      transform: translateY(-380px);
+      transform: translateY(-260px);
     }
     .section3{
-      transform: translateY(-360px);
+      transform: translateY(-240px);
     }
     .section4{
-      transform: translate(100px,-360px);
+      transform: translate(100px,-240px);
     }
     .section5{
-      transform: translate(-10px,-340px);
+      transform: translate(-10px,-220px);
     }
     .section6{
-      transform: translateY(-320px);
+      transform: translateY(-210px);
     }
     .section7{
-      transform: translateY(-250px);
-    }
-    .section8{
-      transform: translateY(-220px);
-    }
-    .section9{
-      transform: translateY(-200px);
-    }
-    .section10{
       transform: translateY(-130px);
     }
+    .section8{
+           transform: translateY(-100px);
+         }
+    .section9{
+      transform: translateY(-70px);
+    }
     .section{
-      @for $i from 11 through 13{
+      @for $i from 10 through 13{
         &:nth-child(#{$i}){
           transform: translateY(10px);
         }
@@ -204,86 +210,86 @@ $transform1:20px;
 .state7{
   .earphone{
     .section1{
-      transform: translateY(-590px);
+      transform: translateY(-340px);
     }
     .section2{
-      transform: translateY(-510px);
-    }
-    .section3{
-      transform: translateY(-490px);
-    }
-    .section4{
-      transform: translate(100px,-490px);
-    }
-    .section5{
-      transform: translate(-10px,-470px);
-    }
-    .section6{
-      transform: translateY(-450px);
-    }
-    .section7{
-      transform: translateY(-380px);
-    }
-    .section8{
-      transform: translateY(-350px);
-    }
-    .section9{
-      transform: translateY(-330px);
-    }
-    .section10{
       transform: translateY(-260px);
     }
-    .section11{
+    .section3{
+      transform: translateY(-240px);
+    }
+    .section4{
+      transform: translate(100px,-240px);
+    }
+    .section5{
+      transform: translate(-10px,-220px);
+    }
+    .section6{
       transform: translateY(-210px);
     }
+    .section7{
+      transform: translateY(-130px);
+    }
+    .section8{
+      transform: translateY(-100px);
+    }
+    .section9{
+      transform: translateY(-70px);
+    }
+    .section10{
+      transform: translateY(10px);
+    }
+    .section11{
+      transform: translate(20px,50px);
+    }
     .section12{
-      transform: translate(30px,-150px);
+      transform: translate(50px,100px);
     }
     .section13{
-      transform: translateY(-160px);
+      transform: translate(50px,90px);
     }
   }
 }
 .state8{
   .earphone{
     .section1{
-      transform: translateY(-720px);
-    }
-    .section2{
-      transform: translateY(-640px);
-    }
-    .section3{
-      transform: translateY(-620px);
-    }
-    .section4{
-      transform: translate(100px,-620px);
-    }
-    .section5{
-      transform: translate(-10px,-600px);
-    }
-    .section6{
-      transform: translateY(-580px);
-    }
-    .section7{
-      transform: translateY(-510px);
-    }
-    .section8{
-      transform: translateY(-480px);
-    }
-    .section9{
-      transform: translateY(-460px);
-    }
-    .section10{
-      transform: translateY(-390px);
-    }
-    .section11{
       transform: translateY(-340px);
     }
+    .section2{
+      transform: translateY(-260px);
+    }
+    .section3{
+      transform: translateY(-240px);
+    }
+    .section4{
+      transform: translate(100px,-240px);
+    }
+    .section5{
+      transform: translate(-10px,-220px);
+    }
+    .section6{
+      transform: translateY(-210px);
+    }
+    .section7{
+      transform: translateY(-130px);
+    }
+    .section8{
+      transform: translateY(-100px);
+    }
+    .section9{
+      transform: translateY(-70px);
+    }
+    .section10{
+      transform: translateY(10px);
+    }
+    .section11{
+      transform: translate(20px,50px);
+    }
     .section12{
-      transform: translate(30px,-290px);
+      transform: translate(50px,100px);
     }
     .section13{
-      transform: translate(50px,-260px);
+      transform: translate(70px,130px);
     }
   }
 }
