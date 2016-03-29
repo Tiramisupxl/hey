@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  display: block; }
+
+.center-line {
+  width: 100%;
+  height: 2px;
+  background-color: #00CC44;
+  position: fixed;
+  top: 50%;
+  margin-top: -1px; }
+
+.earphone-wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh; }
+
+.earphone {
+  width: 300px;
+  height: 295px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -10px); }
+  .earphone .section {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .5s ease; }
+    .earphone .section img {
+      width: 100%; }
+
+.section1 {
+  z-index: 13; }
+
+.section10 {
+  z-index: 12; }
+
+.section12 {
+  z-index: 11; }
+
+.state1 .earphone .section1 {
+  transform: translateY(-40px); }
+.state1 .earphone .section:nth-child(2) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(3) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(4) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(5) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(6) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(7) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(8) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(9) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(10) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(11) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(12) {
+  transform: translateY(20px); }
+.state1 .earphone .section:nth-child(13) {
+  transform: translateY(20px); }
+
+.state2 .earphone .section1 {
+  transform: translateY(-150px); }
+.state2 .earphone .section2 {
+  transform: translateY(-70px); }
+.state2 .earphone .section3 {
+  transform: translateY(-50px); }
+.state2 .earphone .section4 {
+  transform: translate(100px, -50px); }
+.state2 .earphone .section:nth-child(5) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(6) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(7) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(8) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(9) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(10) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(11) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(12) {
+  transform: translateY(10px); }
+.state2 .earphone .section:nth-child(13) {
+  transform: translateY(10px); }
+
+.state3 .earphone .section1 {
+  transform: translateY(-200px); }
+.state3 .earphone .section2 {
+  transform: translateY(-120px); }
+.state3 .earphone .section3 {
+  transform: translateY(-100px); }
+.state3 .earphone .section4 {
+  transform: translate(100px, -100px); }
+.state3 .earphone .section5 {
+  transform: translate(-10px, -80px); }
+.state3 .earphone .section6 {
+  transform: translateY(-70px); }
+.state3 .earphone .section:nth-child(7) {
+  transform: translateY(10px); }
+.state3 .earphone .section:nth-child(8) {
+  transform: translateY(10px); }
+.state3 .earphone .section:nth-child(9) {
+  transform: translateY(10px); }
+.state3 .earphone .section:nth-child(10) {
+  transform: translateY(10px); }
+.state3 .earphone .section:nth-child(11) {
+  transform: translateY(10px); }
+.state3 .earphone .section:nth-child(12) {
+  transform: translateY(10px); }
+.state3 .earphone .section:nth-child(13) {
+  transform: translateY(10px); }
+
+.state4 .earphone .section1 {
+  transform: translateY(-290px); }
+.state4 .earphone .section2 {
+  transform: translateY(-210px); }
+.state4 .earphone .section3 {
+  transform: translateY(-190px); }
+.state4 .earphone .section4 {
+  transform: translate(100px, -190px); }
+.state4 .earphone .section5 {
+  transform: translate(-10px, -170px); }
+.state4 .earphone .section6 {
+  transform: translateY(-160px); }
+.state4 .earphone .section7 {
+  transform: translateY(-80px); }
+.state4 .earphone .section:nth-child(8) {
+  transform: translateY(10px); }
+.state4 .earphone .section:nth-child(9) {
+  transform: translateY(10px); }
+.state4 .earphone .section:nth-child(10) {
+  transform: translateY(10px); }
+.state4 .earphone .section:nth-child(11) {
+  transform: translateY(10px); }
+.state4 .earphone .section:nth-child(12) {
+  transform: translateY(10px); }
+.state4 .earphone .section:nth-child(13) {
+  transform: translateY(10px); }
+
+.state5 .earphone .section1 {
+  transform: translateY(-340px); }
+.state5 .earphone .section2 {
+  transform: translateY(-260px); }
+.state5 .earphone .section3 {
+  transform: translateY(-240px); }
+.state5 .earphone .section4 {
+  transform: translate(100px, -240px); }
+.state5 .earphone .section5 {
+  transform: translate(-10px, -220px); }
+.state5 .earphone .section6 {
+  transform: translateY(-210px); }
+.state5 .earphone .section7 {
+  transform: translateY(-130px); }
+.state5 .earphone .section8 {
+  transform: translateY(-100px); }
+.state5 .earphone .section:nth-child(9) {
+  transform: translateY(10px); }
+.state5 .earphone .section:nth-child(10) {
+  transform: translateY(10px); }
+.state5 .earphone .section:nth-child(11) {
+  transform: translateY(10px); }
+.state5 .earphone .section:nth-child(12) {
+  transform: translateY(10px); }
+.state5 .earphone .section:nth-child(13) {
+  transform: translateY(10px); }
+
+.state6 .earphone .section1 {
+  transform: translateY(-460px); }
+.state6 .earphone .section2 {
+  transform: translateY(-380px); }
+.state6 .earphone .section3 {
+  transform: translateY(-360px); }
+.state6 .earphone .section4 {
+  transform: translate(100px, -360px); }
+.state6 .earphone .section5 {
+  transform: translate(-10px, -340px); }
+.state6 .earphone .section6 {
+  transform: translateY(-320px); }
+.state6 .earphone .section7 {
+  transform: translateY(-250px); }
+.state6 .earphone .section8 {
+  transform: translateY(-220px); }
+.state6 .earphone .section9 {
+  transform: translateY(-200px); }
+.state6 .earphone .section10 {
+  transform: translateY(-130px); }
+.state6 .earphone .section:nth-child(11) {
+  transform: translateY(10px); }
+.state6 .earphone .section:nth-child(12) {
+  transform: translateY(10px); }
+.state6 .earphone .section:nth-child(13) {
+  transform: translateY(10px); }
+
+.state7 .earphone .section1 {
+  transform: translateY(-590px); }
+.state7 .earphone .section2 {
+  transform: translateY(-510px); }
+.state7 .earphone .section3 {
+  transform: translateY(-490px); }
+.state7 .earphone .section4 {
+  transform: translate(100px, -490px); }
+.state7 .earphone .section5 {
+  transform: translate(-10px, -470px); }
+.state7 .earphone .section6 {
+  transform: translateY(-450px); }
+.state7 .earphone .section7 {
+  transform: translateY(-380px); }
+.state7 .earphone .section8 {
+  transform: translateY(-350px); }
+.state7 .earphone .section9 {
+  transform: translateY(-330px); }
+.state7 .earphone .section10 {
+  transform: translateY(-260px); }
+.state7 .earphone .section11 {
+  transform: translateY(-210px); }
+.state7 .earphone .section12 {
+  transform: translate(30px, -150px); }
+.state7 .earphone .section13 {
+  transform: translateY(-160px); }
+
+.state8 .earphone .section1 {
+  transform: translateY(-720px); }
+.state8 .earphone .section2 {
+  transform: translateY(-640px); }
+.state8 .earphone .section3 {
+  transform: translateY(-620px); }
+.state8 .earphone .section4 {
+  transform: translate(100px, -620px); }
+.state8 .earphone .section5 {
+  transform: translate(-10px, -600px); }
+.state8 .earphone .section6 {
+  transform: translateY(-580px); }
+.state8 .earphone .section7 {
+  transform: translateY(-510px); }
+.state8 .earphone .section8 {
+  transform: translateY(-480px); }
+.state8 .earphone .section9 {
+  transform: translateY(-460px); }
+.state8 .earphone .section10 {
+  transform: translateY(-390px); }
+.state8 .earphone .section11 {
+  transform: translateY(-340px); }
+.state8 .earphone .section12 {
+  transform: translate(30px, -290px); }
+.state8 .earphone .section13 {
+  transform: translate(50px, -260px); }
+
+/*# sourceMappingURL=style.css.map */
