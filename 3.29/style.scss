@@ -39,15 +39,6 @@ $transform1:20px;
         }
       }
     }
-    //.section2{
-    //  transition:transfrom .5s ease .2s;
-    //}
-    //.section3{
-    //  transition:transfrom .5s ease .4s;
-    //}
-    //.section4{
-    //  transition:transfrom .5s ease .6s;
-    //}
   }
 }
 .state2{
@@ -290,6 +281,126 @@ $transform1:20px;
     }
     .section13{
       transform: translate(70px,130px);
+    }
+  }
+}
+
+.text{
+  opacity: 0;transform: matrix(1, 0, 0, 1, 0, 20);transition: all .6s ease-out .3s;
+}
+.text1{width:100px;position: absolute;top:-40px;left:-20px;
+  &:after{
+    content:"";display:block;width:80px;height:30px;margin-left:20px;border:1px solid;border-color:#000 #000 transparent transparent;transform: skewX(50deg);
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;
+  }
+}
+.text2{width:100px;position: absolute;top:-10px;left:150px;
+  &:after{
+    content:"";display:block;width:80px;height:30px;margin-left:20px;border:1px solid;border-color:#000 transparent transparent #000;transform: skewX(-50deg);
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;margin-left:40px;
+  }
+}
+.text3{width:100px;position: absolute;top:70px;left:-10px;
+  &:after{
+    content:"";display:block;width:80px;height:30px;margin-left:20px;border:1px solid;border-color: transparent #000 #000 transparent;transform: skewX(-50deg);
+    position: absolute;top:10px;
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;
+  }
+}
+.text4{width:100px;position: absolute;top:30px;left:210px;
+  &:after{
+    content:"";display:block;width:80px;height:20px;margin-left:-20px;border:1px solid;border-color:#000 transparent transparent #000 ;transform: skewX(-50deg);
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;
+  }
+}
+.text5{width:100px;position: absolute;top:80px;left:210px;
+  &:after{
+    content:"";display:block;width:80px;height:20px;margin-left:-20px;border:1px solid;border-color:transparent transparent #000   #000 ;transform: skewX(50deg);
+    position: absolute;top:20px;
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;
+  }
+}
+.text6{width:100px;position: absolute;top:150px;left:-60px;
+  &:after{
+    content:"";display:block;width:80px;height:30px;margin-left:20px;border:1px solid;border-color:transparent #000 #000 transparent ;transform: skewX(-50deg);
+    position: absolute;top:10px;
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;
+  }
+}
+.text7{width:100px;position: absolute;top:210px;left:80px;
+  &:after{
+    content:"";display:block;width:80px;height:30px;margin-left:20px;border:1px solid;border-color:transparent #000 #000 transparent ;transform: skewX(-50deg);
+    position: absolute;top:10px;
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;
+  }
+}
+.text8{width:100px;position: absolute;top:200px;left:230px;
+  &:after{
+    content:"";display:block;width:80px;height:20px;margin-left:20px;border:1px solid;border-color:#000 transparent transparent #000;transform: skewX(-50deg);
+  }
+  P{
+    width:100%;line-height:20px;text-align: left;word-break: break-all;margin-left:30px;
+  }
+}
+.T1,.T2,.T3,.T4,.T5,.T6,.T7,.T8{
+  .earphone{
+    .text1{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+}
+.T2,.T3,.T4,.T5,.T6,.T7,.T8{
+  .earphone{
+    .text2{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+}
+.T3,.T4,.T5,.T6,.T7,.T8{
+  .earphone{
+    .text3{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+}
+.T4,.T5,.T6,.T7,.T8{
+  .earphone{
+    .text4{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+}
+.T5,.T6,.T7,.T8{
+  .earphone{
+    .text5{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+}
+.T6,.T7,.T8{
+  .earphone{
+    .text6{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+}
+.T7,.T8{
+  .earphone{
+    .text7{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+}
+.T8{
+  .earphone{
+    .text8{opacity:1;transform: matrix(1, 0, 0, 1, 0, 0);
     }
   }
 }
